@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>University Website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+         <a href=""><img src="./eduford_img/logo.png" alt=""></a>
+         <div class="nav-links" id="nav-links">
+
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </div>
+
+         <i class="fa fa-bars" onclick=showMenu()></i>
+        </nav>
+        <h1>Blogs</h1>
+
+
+
+ 
+    </section>
+
+    
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./eduford_img/certificate.jpg" alt="">
+                <h2>Cetificate & Online Programs for 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur corrupti, cum sapiente laborum dolorem error eius quam suscipit quis, ea, officia doloremque? Ipsam inventore ab libero dolor nisi laboriosam! <br> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis laborum odio sit incidunt culpa animi quod assumenda quasi eos nemo similique repellat eveniet quis repellendus saepe, hic laudantium. Quo nam consequuntur molestiae quibusdam provident beatae in repellat, reprehenderit quam culpa iure dolores odit saepe doloremque, impedit possimus corporis quaerat! Qui! <br> <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, delectus. Dignissimos tenetur laudantium sapiente repellat impedit aliquid aut debitis neque, vitae, consequuntur quidem at vero beatae unde delectus, tempora maxime! <br> <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde perferendis delectus cum adipisci ipsum eum excepturi nisi repudiandae iusto?
+                </p>
+
+                <div class="comment">
+                    <h3>Leave A Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name="" rows="5" placeholder="Your Valubale Comment"></textarea>
+                        <button class='hero-btn red-btn'
+                        type="submit">Post Comment</button>
+
+                    </form>
+
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Science & Technology</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Computer Engineering</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere odit consequatur dicta fugiat provident illo quibusdam doloremque sapiente sunt corporis, molestiae porro voluptate deserunt ipsa officia repudiandae consectetur. Laboriosam, perspiciatis!</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fas-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+       
+    </div>
+
+    <p>Made By &copy; Sujitt Kumar Modak</p>
+</section>
+
+
+<script>
+ var navlinks = document.getElementById("nav-links");
+
+
+
+ function showMenu () {
+     navlinks.style.right = "0";
+
+ }
+
+ function hideMenu () {
+    navlinks.style.right = "-200px";
+}
+
+
+</script>
+
+
+</body>
+</html>
